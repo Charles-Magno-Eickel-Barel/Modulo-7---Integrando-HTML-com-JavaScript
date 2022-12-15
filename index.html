@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validar form</title>
+    <link rel="stylesheet" href="./main.css" />
+</head>
+<body>
+    <body>
+        <div class="container">
+            <h1>Validação de formulário</h1>
+            <h2>Comparação do valor A e B</h2>
+            <form id="form-comparar">
+                <input type="number" id="numero-a" required placeholder="Número A" />
+                <input type="number" id="numero-b" required placeholder="Número B" />
+                <p class="error-message">
+                    Para validar o formulário o B precisa ser maior que A
+                </p>
+                <button id="btn-validar" type="submit">Validar formulário</button>
+            </form>
+            <p class="success-message"></p>
+        </div>
+        <script src="./main.js"></script>
+    </body>
+</body>
+</html>
